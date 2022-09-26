@@ -7,7 +7,10 @@ function App() {
     <div id="appMain">
       <div id="udemyMain">
         <p id="udemyChallenge">Udemy Challenge</p>
-        <AirBNB />
+        <Udemy />
+      </div>
+      <div id="udemyMain">
+        <p id="bnbChallenge">Airbnb Challenge</p>
       </div>
     </div>
   );
