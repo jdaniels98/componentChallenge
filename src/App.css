@@ -1,38 +1,132 @@
-.App {
-  text-align: center;
+#bnbMain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 15%;
+    margin-left: 10%;
+    margin-right: 25%;
+    margin-bottom: 12%;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#udemyChallenge {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    margin: 0;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-decoration: underline;
+    font-weight: bold;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#bnbChallenge {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    margin: 0;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 25%;
+    text-decoration: underline;
+    font-weight: bold;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#udemy {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 25%;
+    margin-top: 2.5%;
 }
-
-.App-link {
-  color: #61dafb;
+#udemyHeader {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0;
+    margin-left: 10px;
+    margin-bottom: 15px;
 }
+#cardRow {
+    display: flex;
+    flex-direction: row;
+}
+#udemyCard {
+    height: 141px;
+    width: 249px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+#title {
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 7px;
+}
+#author {
+    font-size: 12px;
+    margin-top: 0;
+    margin-bottom: 7px;
+    color: rgb(117, 117, 117);
+}
+#scoreRow {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0;
+    margin-bottom: 7px;
+}
+#score {
+    font-weight: bold;
+    font-size: 12px;
+    margin: 0;
+    margin-right: 5px;
+    margin-top: 3px;
+    color: #b4690d;
+}
+#score2 {
+    margin: 0;
+    margin-top: 2px;
+    font-size: 12px;
+    color: rgb(117, 117, 117);
+}
+#stars {
+    margin: 0;
+    margin-top: 3px;
+    margin-right: 2px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+#stars img {
+    height: 10px;
+    width: 10px;
+    margin: 0;
+    margin-right: 3px;
+}
+#priceRow {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#price {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 10px;
+    font-weight: bold;
+}
+#price2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: rgb(117, 117, 117);
+    text-decoration: line-through;
+    text-decoration-thickness: 1.8px;
+}
+#bestseller {
+    font-size: 12px;
+    background-color: #eceb98;
+    width: 60px;
+    font-weight: bold;
+    padding-left: 8px;
+    padding-right: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
 }
